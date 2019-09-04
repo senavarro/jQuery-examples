@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery</title>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+    <style>
+      #box {
+        width: 250px;
+        height: 250px;
+        border: 2px solid black;
+        background: yellow;
+        transition: 300ms all; /*  Transition in the main class so it always has it instead of having to add it */
+      }
+
+      input {
+        padding: 10px;
+        width: 200px;
+        height: 200px;
+        border: dashed black;
+      }
+
+      #follow_me {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        display: block;
+        background: yellow;
+        opacity: 0.3;
+        border: 3px solid black;
+        border-radius: 999px;
+      }
+
+      /* #box:hover {       //Do this with basic CSS or JavaScript using jQuery
+        background: red;
+        cursor: pointer;
+      }*/
+    </style>
+  </head>
+  <body>
+    <h1>Practising with jQuery - Events</h1>
+    <div id="box">
+      This is a box
+    </div>
+
+    <br />
+
+    <div>
+      <input id="box2" />
+    </div>
+    <div id="follow_me"></div>
+  </body>
+</html>

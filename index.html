@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery</title>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="selectors.js"></script>
+    <style>
+      .zebra {
+        border: 5px dashed black;
+      }
+
+      .big {
+        font-size: 30px;
+      }
+
+      .top_margin {
+        display: block;
+        margin-top: 45px;
+      }
+
+      .highlighted {
+        border-bottom: 2px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Practising with jQuery</h1>
+
+    <ul>
+      <li><a href="https://www.google.com " title="Google">Go to Google</a></li>
+      <li>
+        <a href="https://www.facebook.com" title="Facebook">Go to Facebook</a>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <p id="red" class="no_border">First one</p>
+    <p id="yellow" class="zebra">Second one</p>
+    <p id="green" class="no_border">Third one</p>
+    <p class="zebra">Blank, nothing to see here</p>
+
+    <div id="box">
+      <p>The box</p>
+      <ul>
+        <li>Object 1</li>
+        <li class="highlighted">Object 2</li>
+      </ul>
+      <span class="highlighted">This is a span</span>
+    </div>
+  </body>
+</html>
